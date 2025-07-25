@@ -7,7 +7,8 @@ module.exports = {
   //    Tailwind akan memindai file-file ini untuk mencari class yang digunakan.
   content: [
     './*.php', // Memindai semua file PHP di direktori utama (header.php, footer.php, dll.)
-    './page-templates/**/*.php', // Memindai semua template halaman landing Anda
+    './page-templates/**/*.php',
+    './page-templates/**/**/*.html', // Memindai semua template halaman landing Anda
     './node_modules/flowbite/**/*.js' // Wajib untuk fungsionalitas JavaScript Flowbite
   ],
 
